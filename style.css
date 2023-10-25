@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+#react{
+    background-color: azure;
+    color: crimson;
+    width: 150px;
+    height: 200px;
+    line-height: 20px;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: start;
+border-width: 5px;
+border-style: solid;
+border-color: blueviolet;
+margin: 5px;
+padding-left: 5px;
+display: inline-block;
+position: relative;
+top: 30px;
+
+
+}
+#java{
+    padding-left:5px;
+    padding-right: 5px;
+    background-color: blanchedalmond;
+    color: darkcyan;
+    height: 200px;
+    width: 300px;
+    line-height: 20px;
+    font-size: 15px;
+     text-align: start;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+    margin: 5px;
+    
+    position: relative;
+    top: -190px;
+    right: -200px;
+    
+    
+    
+    }
+    #javascript{
+        padding-right: 5px;
+        padding-left: 5px;
+        text-align: left;
+        height: 200px;
+        width: 300px;
+        background-color: rgb(209, 224, 213);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: darkmagenta;
+        font-size: 15px;
+        line-height: 20px;
+        border-style: dotted;
+        border-width: 4px;
+        margin: 5px;
+        position: relative;
+        top: -400px;
+        right: -550px;
+        
+    }
+    #html{
+        height: 280px;
+        width: 300px;
+        padding: 5px;
+        margin: 5px;
+        font-size: 15px;
+        line-height: 25px;
+        font-style: italic;
+         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color: blanchedalmond;
+        color: firebrick;
+        border-width: 3px;
+        border-color: blue;
+        border-style: double;
+        margin-right: 3px;
+        text-align: center;
+        display: inline-block;
+        position: relative;
+        top: -620px;
+        left: 900px;
+    }
+    #navigationbar{
+        height: 40px;
+        background-color: black;
+    
+    }
+    a{
+        margin-right: 200px;
+        font-size: 25px;
+        text-transform: capitalize;
+        background-color: aqua;
+        
+    }
+    #logo{
+        background-color: #f08804;
+        font-size: 25px;
+        color: blue;
+        margin-left: 5px;
+    }
+ .heading{ 
+    background-color: beige;
+    color:  blue;
+    margin: 1px;
+    text-align: center;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-decoration: red wavy underline;
+    border-width: 2px;
+    border-style: solid;
+    border-color: chartreuse;
+    line-height: 50px;
+    font-size: 20px;
+ }
+ #footer{
+    height: 100px;
+    width: 100%vw;
+    background-color: gray;
+
+ }
+button{
+    font-weight: 400px;
+    font-size: 25px;
+    margin: 2px;
+    padding: 5px;
+    border: 2px solid red;
+    text-transform: capitalize;
+}
