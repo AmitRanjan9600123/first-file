@@ -4,8 +4,8 @@
     background-color: rgb(69, 194, 194);
 }
 .box{
-    margin-right: 200px;
-    margin-left: 10px;
+ 
+    margin: 10px;
     padding: 25px;
 height: 100px;
 width: 100px;
@@ -27,4 +27,7 @@ border: 5px solid red;
 .maindiv{
     display: grid;
     justify-content: center;
+   
+
+
 }
