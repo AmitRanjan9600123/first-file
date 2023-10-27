@@ -1,21 +1,28 @@
 *{
     padding: 0;
     margin: 0;
-    background-color:white;
+    background-color:rgb(255, 172, 172);
 }
 .box{
  
-     margin: -2px;
+     margin: 0px;
      padding: 25px;
-     height: 300px; 
-     width: 300px; 
+     height: auto; 
+     width: auto; 
      border: 5px solid red;
-     display: inline-block;
+     display: grid;
      position: relative;
      
 
   }
     .maindiv{
+       
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-rows: 0fr 0fr 2fr 1fr ;
+        grid-template-columns: 200px 200px 200px ;
+     
 
     }
 #b1{
@@ -32,15 +39,15 @@
 }
 #b3{
     background-color:cornsilk;
-    background-image:url(:\Users\dell\Desktop\image);
-    background-size: contain;
+    background-image:url(C:/Users/ayan7/Desktop/about.jpg);
+    background-size: cover;
     
 }
 #b4{
 background-color: rgba(195, 245, 80, 0.911);
 background-image: url(https://img.freepik.com/free-photo/autumn-leaf-falling-revealing-intricate-leaf-vein-generated-by-ai_188544-9869.jpg);
 background-size:contain;
-bac
+
 }
 #b5{
     background-color: rgb(241, 22, 22);
