@@ -1,33 +1,66 @@
 *{
     padding: 0;
     margin: 0;
-    background-color: rgb(69, 194, 194);
+    background-color:white;
 }
 .box{
  
-    margin: 10px;
-    padding: 25px;
-height: 100px;
-width: 100px;
-border-radius: 10px;
-display: inline-block;
-border: 5px solid red;
-}
+     margin: -2px;
+     padding: 25px;
+     height: 300px; 
+     width: 300px; 
+     border: 5px solid red;
+     display: inline-block;
+     position: relative;
+     
+
+  }
+    .maindiv{
+
+    }
 #b1{
     background-color: rgba(0, 255, 38, 0.096);
+    background-image: url(amazon.jpeg) ;
+    background-size: contain;
 
 }
 #b2{
     background-color: rgba(202, 253, 48);
-    border-radius: 50%;
+    background-image: url(peacock.jpeg);
+    background-size: cover;
+    
 }
 #b3{
-    background-color: rgba(113, 28, 150,5);
+    background-color:cornsilk;
+    background-image:url(:\Users\dell\Desktop\image);
+    background-size: contain;
+    
 }
-.maindiv{
-    display: grid;
-    justify-content: center;
-   
+#b4{
+background-color: rgba(195, 245, 80, 0.911);
+background-image: url(https://img.freepik.com/free-photo/autumn-leaf-falling-revealing-intricate-leaf-vein-generated-by-ai_188544-9869.jpg);
+background-size:contain;
+bac
+}
+#b5{
+    background-color: rgb(241, 22, 22);
+    border-color: blue;
+    
+}
+#b6{
+    background-color: rgba(9, 170, 9, 0.815);
+    
+}
+#b7{
+    background-color:purple;
+    
+}
+#b8{
+    background-color: rgb(241, 128, 22);
+}
+#b9{
+    background-color:darkgoldenrod;
+}
 
 
-}
+
